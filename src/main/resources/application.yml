@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://192.168.62.171:3306/nanjing_house?useUnicode=true&characterEncoding=utf8
+
+logging:
+  level:
+    com.neuedu.mapper: debug
